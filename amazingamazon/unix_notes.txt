@@ -1,0 +1,15 @@
+ls <path> lists the directory content of <path>. If you just type ls with no argument, the terminal will show you the content of the directory you're currently in. Some useful options for the ls command include -l, which shows the "long" form list of directory contents and includes permissions, file sizes, etc; -a shows hidden files, which begin with a "."; -r, which reverses the order of the sort; and -t, which sorts by file last modified.
+
+You can use absolute or relative paths to find directories and files. Relative paths are based on your current location. Absolute paths are based on the item's full path from the root directory. They start with /.
+
+In UNIX, file names are case sensitive. UNIX sees TEXT.txt and text.txt are two different files.
+
+You can use pipes to chain two programs together, i.e., history | subl will open a history of your terminal commands inside Sublime.
+
+Typing cd into the terminal will take you to your home directory.
+
+pwd prints the absolute path to your current working directory.
+
+mv moves files and can be used to rename a file.
+
+mkdir creates a new directory.

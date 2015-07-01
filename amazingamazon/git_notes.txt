@@ -1,0 +1,17 @@
+git status will tell you if you have untracked files or staged but uncommitted files in your repository.
+
+git add <file> adds untracked files to the staging area
+
+git commit <file> -m commits files to the repository with a message about what was added or changed.
+
+git log gives you a list of previous commits, who made them, their contact info, when they were made, and the message.
+
+git branch <name> will create a new branch to the master repository with that name.
+
+git branch shows you all branches in a repository and tells you which one you are on with an *.
+
+git checkout <branch> allows you to move from branch to branch.
+
+git init initializes git in a directory.
+
+git clone clones a repository into a new directory.
